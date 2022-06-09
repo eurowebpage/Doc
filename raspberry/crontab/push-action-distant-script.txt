@@ -12,11 +12,27 @@ cron1.sh
 Ou via la commande (lien fournis par eurowebpage)
 --
 => cd /var/www/html/
-=> wget http://website.com/files/file.zip
+=> sudo wget http://website.com/files/file.zip
+=> unzip file.zip
+--
+Remplacez file.zip par le nom du fichier recu dans url
 
 3.Exécuter les commande ci-dessous.
 -----------------------------------
 => cd /var/www/html/
 => chmod 777 cron1.php
 => chmod +x cron1.sh
+
+4. Crontab commande
+-------------------
+=> sudo crontab -e
+--
+Ajouter la ligne ci-dessous
+*/5 * * * * bash /var/www/html/cron1.sh >/dev/null 2>&1
+--
+Ctrl-s et Ctrl-x
+--
+Exécuter la commande ci-dessous
+=> sudo service cron reload
+
 
