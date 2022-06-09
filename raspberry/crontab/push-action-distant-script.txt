@@ -12,10 +12,10 @@ cron1.sh
 Ou via la commande (lien fournis par eurowebpage)
 --
 => cd /var/www/html/
-=> sudo wget http://website.com/files/file.zip
-=> unzip file.zip
+=> sudo wget http://website.com/files/down1.zip
+=> unzip down1.zip
 --
-Remplacez file.zip par le nom du fichier recu dans url
+Remplacez http://website.com/files/down1.zip par url recu dans email
 
 3.Exécuter les commande ci-dessous.
 -----------------------------------
