@@ -32,7 +32,6 @@ Ajouter la ligne ci-dessous
 --
 Ctrl-s et Ctrl-x
 --
-Exécuter la commande ci-dessous
 => sudo service cron reload
 
 
