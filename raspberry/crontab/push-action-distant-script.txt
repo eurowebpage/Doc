@@ -1,1 +1,22 @@
+1.Connectez-vous à votre PI via putty SSH
+----------------------------------------
+=> cd /
+
+2. Télécharger les fichiers ci-dessous dans le dossier /var/www/html/
+---------------------------------------------------------------------
+Via ftp si vous avez les fichiers
+--
+cron1.php
+cron1.sh
+
+Ou via la commande (lien fournis par eurowebpage)
+--
+=> cd /var/www/html/
+=> wget http://website.com/files/file.zip
+
+3.Exécuter les commande ci-dessous.
+-----------------------------------
+=> cd /var/www/html/
+=> chmod 777 cron1.php
+=> chmod +x cron1.sh
 
