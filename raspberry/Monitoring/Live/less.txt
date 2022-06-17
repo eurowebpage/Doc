@@ -1,0 +1,8 @@
+sudo less +F  /var/log/apache2/access.log
+
+--------------
+For exist 
+---
+ctrl-c
+q
+---
