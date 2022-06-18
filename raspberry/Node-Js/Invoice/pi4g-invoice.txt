@@ -3,8 +3,9 @@ Static Server
 cd /
 cd /var/www/html/invoice
 serve -s build
-
-
+---
+http://pi4g-invoice:3000
+---
 Ctrl-c => Exist 
 
 Pour éteindre le Pi 
