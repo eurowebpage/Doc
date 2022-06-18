@@ -1,0 +1,8 @@
+cd /var/www/html/
+mkdir invoice
+cd invoice
+-----
+npm install
+--
+npm start
+--
