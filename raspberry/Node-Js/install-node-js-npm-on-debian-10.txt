@@ -9,6 +9,15 @@ sudo apt install nodejs npm
 --
 nodejs --version
 --
+npm --version
+--
+npm install -g create-react-app
+--
+-----------------------------
+
+Vous pouvez maintenant exécuter :
+--
+create-react-app my-app
 
 ----------------------------------------------------------
 
