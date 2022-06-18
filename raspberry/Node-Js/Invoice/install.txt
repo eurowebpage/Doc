@@ -1,4 +1,8 @@
-cd /var/www/html/
+npm install -g create-react-app
+create-react-app /var/www/html/invoice
+---------------------------------------
+
+cd /var/www/html/invoice
 mkdir invoice
 cd invoice
 -----
