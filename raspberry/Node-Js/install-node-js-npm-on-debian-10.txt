@@ -20,6 +20,12 @@ Vous pouvez maintenant exécuter :
 create-react-app my-app
 
 ----------------------------------------------------------
+curl -fsSL https://deb.nodesource.com/setup_17.x | sudo -E bash -
+--
+sudo apt-get update && sudo apt-get install yarn
+
+sudo apt update -y
+----------------------------------------------------------
 
 Installation des outils de développement#
 Les outils de développement sont nécessaires pour compiler et installer des modules complémentaires natifs à partir du registre npm. Installez le package en exécutant :
