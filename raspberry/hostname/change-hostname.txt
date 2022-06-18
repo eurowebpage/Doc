@@ -1,0 +1,5 @@
+Remplacer par le nouveau nom de hôte
+----
+nano /etc/hosts
+----
+nano /etc/hostname 
