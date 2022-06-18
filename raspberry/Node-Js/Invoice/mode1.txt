@@ -1,0 +1,13 @@
+Static Server
+------------------
+cd /
+cd /var/www/html/invoice
+serve -s build
+
+
+Ctrl-c => Exist 
+
+Pour éteindre le Pi 
+shutdown now
+
+Voir + : https://create-react-app.dev/docs/deployment
