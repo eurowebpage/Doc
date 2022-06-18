@@ -27,6 +27,8 @@ sudo apt-get update && sudo apt-get install yarn
 sudo apt update -y
 
 sudo apt install nodejs -y
+
+node -v
 ----------------------------------------------------------
 
 Installation des outils de développement#
