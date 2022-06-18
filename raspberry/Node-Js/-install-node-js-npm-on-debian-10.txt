@@ -1,0 +1,11 @@
+Node.js est un environnement d'exécution JavaScript multiplateforme basé sur le JavaScript de Chrome conçu pour exécuter du code JavaScript côté serveur. 
+Avec Node.js, vous pouvez créer des applications réseau évolutives.
+npm est le gestionnaire de packages par défaut pour Node.js qui aide les développeurs à partager et à réutiliser leur code.
+-----------------
+sudo apt update
+sudo apt upgrade
+--
+sudo apt install nodejs npm
+--
+nodejs --version
+--
