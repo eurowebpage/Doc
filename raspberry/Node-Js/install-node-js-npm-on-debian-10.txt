@@ -25,6 +25,8 @@ curl -fsSL https://deb.nodesource.com/setup_17.x | sudo -E bash -
 sudo apt-get update && sudo apt-get install yarn
 
 sudo apt update -y
+
+sudo apt install nodejs -y
 ----------------------------------------------------------
 
 Installation des outils de développement#
