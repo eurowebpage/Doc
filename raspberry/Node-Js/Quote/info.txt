@@ -1,0 +1,19 @@
+Static Server
+------------------
+cd /
+cd /var/www/html/quote
+serve -s build
+---
+http://pi4g-quote:3000
+---
+Ctrl-c => Exist 
+
+Pour éteindre le Pi 
+shutdown now
+
+------------------
+Pruction
+npm run build
+------------------
+
+Voir + : https://create-react-app.dev/docs/deployment
