@@ -25,3 +25,5 @@ Pour voir si le démon SSH est en cours d'exécution ou non :
 
 /usr/sbin/sshd -D
 
+service ssh start
+service ssh stop
