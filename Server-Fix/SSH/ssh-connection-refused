@@ -1,0 +1,27 @@
+ssh localhost
+sudo service ssh status
+grep Port /etc/ssh/sshd_config
+----------
+how-do-i-restart-the-ssh-service
+-----------
+Vérifiez d’abord si sshd est en cours d’exécution en utilisant ce qui suit :
+
+ps -ef | grep sshd
+Vous devriez voir quelque chose comme :
+
+root      1234     1  0 12:28 ?        00:00:00 /usr/sbin/sshd -D
+Si vous ne voyez pas de ligne, /usr/sbin/sshd -Dalors sshd n'a jamais démarré ou est tombé en panne, ce qui nécessitera un dépannage plus approfondi pour découvrir pourquoi.
+
+Si vous voyez cette ligne, exécutez ensuite ceci :
+
+cat /var/run/sshd.pid
+Cela devrait imprimer l'identifiant du processus sshd, donc dans ce cas, vous devriez voir :
+
+userid@computername:~$ cat /var/run/sshd.pid 
+1234
+
+-------------
+Pour voir si le démon SSH est en cours d'exécution ou non :
+
+/usr/sbin/sshd -D
+
